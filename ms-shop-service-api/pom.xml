@@ -14,8 +14,6 @@
     <modules>
         <module>ms-shop-service-api-weixin</module>
         <module>ms-shop-service-api-member</module>
-        <module>meite-shop-service-api-weixin</module>
-        <module>ms-shop-service-api-weixin</module>
     </modules>
 
     <dependencies>
