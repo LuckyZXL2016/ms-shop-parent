@@ -1,0 +1,3 @@
+Idea 注解错误could not autowire no beans of...plicationEventMulticaster not initialized:
+
+参考：https://blog.csdn.net/qq_35981283/article/details/78625933
