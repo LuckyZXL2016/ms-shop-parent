@@ -1,5 +1,6 @@
 package com.zxl.weixin.service;
 
+import com.zxl.base.BaseResponse;
 import com.zxl.entity.AppEntity;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -15,6 +16,6 @@ public interface WeiXinAppService {
     // 功能说明： 应用服务接口
     @ApiOperation(value = "微信应用服务接口")
     @GetMapping("/getApp")
-    public AppEntity getApp();
+    public BaseResponse<AppEntity> getApp();
 
 }

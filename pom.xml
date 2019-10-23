@@ -13,6 +13,7 @@
         <module>ms-shop-api-dto</module>
         <module>ms-shop-service-api</module>
         <module>ms-shop-service-impl</module>
+        <module>ms-shop-common</module>
     </modules>
 
     <parent>

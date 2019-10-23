@@ -1,10 +1,10 @@
 package com.zxl.member.service.impl;
 
+import com.zxl.base.BaseResponse;
 import com.zxl.entity.AppEntity;
 import com.zxl.member.feign.WeiXinAppServiceFeign;
 import com.zxl.member.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -18,8 +18,7 @@ public class MemberServiceImpl implements MemberService {
     private WeiXinAppServiceFeign weiXinAppServiceFeign;
 
     // SpringCloud 通信 rest feign
-    @GetMapping("/memberInvokeWeiXin")
-    public AppEntity memberInvokeWeiXin() {
+    public BaseResponse<AppEntity> memberInvokeWeiXin() {
         return weiXinAppServiceFeign.getApp();
     }
 }
