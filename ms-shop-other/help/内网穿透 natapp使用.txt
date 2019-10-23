@@ -1,0 +1,2 @@
+内网穿透 natapp使用
+./natapp -authtoken=xxx
