@@ -4,4 +4,6 @@
 
 [技术选型](/ms-shop-doc/技术选型.md)
 [系统架构](/ms-shop-doc/系统架构.md)
-[项目构建](/ms-shop-doc/项目构建.md)
+[项目构建](/ms-shop-doc/项目构建.md)  
+  
+[构建分布式配置中心阿波罗](/ms-shop-doc/阿波罗配置.md)
