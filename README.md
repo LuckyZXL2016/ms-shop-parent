@@ -8,4 +8,4 @@
   
 [构建分布式配置中心阿波罗](/ms-shop-doc/阿波罗配置.md)  
 
-该项目通过从公众号获取注册码来注册，因此需要搭建企业级微信公众号，[微信公众平台](https://mp.weixin.qq.com/)，[微信公众号测试平台](https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login)，[外网映射工具](https://natapp.cn/)，其中可以利用[WxJava框架快速开发微信公众号](https://github.com/Wechat-Group/WxJava)。
+该项目通过从公众号获取注册码来[注册](/ms-shop-doc/会员注册.md)，因此需要搭建企业级微信公众号，[微信公众平台](https://mp.weixin.qq.com/)，[微信公众号测试平台](https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login)，[外网映射工具](https://natapp.cn/)，其中可以利用[WxJava框架快速开发微信公众号](https://github.com/Wechat-Group/WxJava)。
